@@ -1,7 +1,7 @@
-from Module.Uniswap_v3_getQuote import quote
+from Module.ONEINCH_OffchainOracle import quote
 
-# Call the quote function connected to Uniswap v3
-## inputs: quote(Token, Quote_Token, Quantity)
-## outputs: {feetier: quote}
-result = quote("WBTC", "USDC", 1)
+# Call the Offchain Oracle getRate function provided by the 1INCH Spot Price Aggregator
+## inputs: quote(Token, Quote_Token, Use_Wrappers)
+## outputs: exchange rate
+result = quote("WBTC", "WETH", False)
 print(result)
