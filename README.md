@@ -1,6 +1,18 @@
-# Uniswap v3 Quoter
+# 1INCH Quoter
 
-Python script to read the Uniswap v3 Quoter smart contract to aggregate quotes across all pools and fee tiers available on Uniwap v3. 
+Python script to read the 1INCH Offchain Oracle smart contract to aggregate quotes across multiple DEX's and fee tiers available on Uniwap v3. The 1inch spot price aggregator is a set of smart contracts that extract price data for tokens traded on DEXes from the blockchain.
+
+Supported DEX's are below:
+- Mooniswap
+- 1inch Liquidity Protocol V1.1
+- Uniswap V1
+- Uniswap V2
+- Sushiswap
+- Equalizer.fi
+- Uniswap V3
+- Synthetix
+- Chainlink
+- Shibaswap
 
 ## Environment Details
 
